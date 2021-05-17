@@ -32,7 +32,7 @@ public class TestGetApi {
             galleryExists = true; //set to true meaning the name exists
             actualValue = promotionsArray.getJSONObject(x).get("Description").toString();
         }
-        Assert.assertTrue("Test for promotion Gallery Exists", galleryExists);
+        Assert.assertEquals("Test for promotion Gallery Exists", true, galleryExists);
         Assert.assertEquals("Test for promotion Gallery Description", expectedValue, actualValue);
     }
 }

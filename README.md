@@ -1,4 +1,4 @@
-The repository contains a project with a java class that calls upon an API (API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false).
+The repository contains a project with a java class (TestApi_Gradle/src/main/java/GetApi.java) that calls upon an API (API = https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false).
 
 Included in the project is a test class which will test the following UAT:
 1. Name = "Carbon credits"

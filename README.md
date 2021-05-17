@@ -8,7 +8,7 @@ Included in the project is a test class which will test the following UAT:
 
 To run the test, follow the following steps:
 1. Install git bash (https://git-scm.com/downloads)
-2. Select a folder location for the files and the nclone the project (git clone https://github.com/agmanzo/assurity_testing.git)
+2. Select a folder location for the files and then clone the project (git clone https://github.com/agmanzo/assurity_testing.git)
 3. Open the project TestApi_Gradle (Intellij IDEA recommended)
 4. Open class TestApi_Gradle/src/test/java/TestGetApi.java
 5. Run the test class
